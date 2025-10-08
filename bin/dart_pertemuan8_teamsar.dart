@@ -14,3 +14,14 @@ class PersegiPanjang {
     return 2 * (panjang + lebar);
   }
 }
+
+void main() {
+  print("Menghitung Keliling dan Luas Persegi Panjang");
+  var panjang = 5;
+  var lebar = 3;
+  var pp = PersegiPanjang(panjang, lebar);
+  var luas = pp.luasPersegiPanjang();
+  var keliling = pp.kelilingPersegiPanjang();
+  print('Keliling Persegi Panjang: $keliling');
+  print('Luas Persegi Panjang: $luas'); 
+}
